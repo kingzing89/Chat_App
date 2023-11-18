@@ -1,25 +1,55 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Components/Navbar"
+import Body from "./Components/Body"
+import Blog from "./Components/Blog"
+import Chat from "./Components/Chat"
+import socketIO from "socket.io-client";
+import { Route, Routes } from "react-router-dom";
+
+
+import Option_Page from './Components/Option_Page';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*
+      <Body/>
+       <Option_Page/>*/}
+       <Navbar/>
+
+      <Chat/>
+
+
+
+
+      <Routes>
+
+        <Route  exact path="/blog" element={<Blog />} />
+        <Route  exact path="/chat" element={<Chat />} />
+
+
+
+
+      </Routes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-  );
+  )
 }
 
 export default App;

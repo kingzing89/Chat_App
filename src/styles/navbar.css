@@ -1,0 +1,82 @@
+body{
+   
+    margin:0;
+    overflow-x: hidden;
+}
+.Navbar{
+    
+    display:flex;
+    height: 50px;
+    justify-content: space-evenly;
+    min-width:481px;
+    flex-direction: row;
+    background-color: #fce4ec;
+    margin:0px;
+    width: 100%;
+    
+
+
+
+
+}
+
+.Menu-item, .Logo{
+
+    list-style:none;
+    margin-top:10px;
+    
+    font-size: 20px;
+    
+}
+
+.Login{
+    list-style:none;
+    margin-top:10px;
+    font-size: 20px;
+    color:rgb(22, 60, 211);
+   
+}
+
+.Login:hover{
+    color:lightcoral;
+    cursor:pointer;
+}
+
+
+
+.img-logo{
+
+    width:150px;
+    height:auto;
+    position: relative;
+    display: block;
+    float: left;
+    align-items: center;
+    margin-top: -15px;
+    left: -50px;
+
+
+
+
+
+
+}
+
+.Menu-item{
+    color:#DAA06D;
+}
+
+.Menu-item:hover{
+    color:#429E9D;
+    cursor: pointer;
+    border-bottom: 2px solid lightseagreen;
+  
+    vertical-align: top;
+
+    
+}
+
+.link{
+    text-decoration: none;
+}
+

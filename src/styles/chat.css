@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    margin: auto;
+   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.top-bar{
+    display: flex;
+    border: 5px solid lightblue;
+    position: relative;
+    width: 90%;
+    
+    background-color: lightblue;
+    
+    
+    padding: 0px;
+    height: 60px;
+    
+    box-shadow: 10px 5px 5px 5px rgba(0,0,0,0.1);
+    
+    top:-180px;
+   
+}
+
+.top-bar h5{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    text-shadow: 1px 1px 2px black;
+    padding-left: 10px;
+    
+}
+.Lower-box{
+    z-index: 0px;
+    border:5px solid black;
+    width: 90%;
+    position: absolute;
+    
+    height: 500px;
+   
+    top:-100px
+
+    
+   
+    
+    
+}
+
+#msg-send{
+    z-index:0px;
+    position: absolute;
+    top: 440px;
+    height: 40px;
+    width: 1210px;
+    display: flex;
+    justify-content: center;
+    left: -1px;
+    height:50px;
+    border-top: 5px solid black;
+    min-width: 500px;
+  
+    font-size: 20px;
+    outline: none;
+    border-bottom: none;
+    border-left: none;
+   
+    
+
+}
+
+#send-btn{
+    z-index:0px;
+    position: absolute;
+    top: 444px;
+    height: 40px;
+    left:1133px;
+    height: 57px;
+    width: 80px;
+    color:blue;
+    background-color:  lightblue;
+    transition:  background-color 1s;
+}
+
+#send-btn:hover{
+
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
+
+button p{
+    font-size: 15px;
+}
+

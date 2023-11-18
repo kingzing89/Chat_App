@@ -1,0 +1,87 @@
+#page{
+    background-color: grey;
+    min-height:100vh;
+    max-width: 2000px;
+    min-width:400px;
+    
+
+}
+
+.Option-page-title{
+    font-size:  30px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+.container{
+    
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+
+.container-txt{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    
+
+}
+
+.Venter, .Listener{
+    height: 100px;
+    margin-right:20px;
+    font-size: 20px;
+    padding:5px;
+    border-radius: 30%;
+    border: none;
+    width:200px;
+    background-color:lightskyblue;
+    color: black;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in ;
+}
+
+.txt-left{
+    position: relative;
+    right: 40px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue;
+    
+   
+}
+.txt-right{
+    position: relative;
+    left: 40px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue;
+   
+}
+
+.Venter:hover, .Listener:hover{
+    background-color:darkblue;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
